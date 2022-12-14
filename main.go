@@ -8,6 +8,7 @@ import (
 )
 
 func main() {
+	fmt.Print("Digite o CEP: ")
 	var cep string
 	_, err := fmt.Scan(&cep)
 	if err != nil {
